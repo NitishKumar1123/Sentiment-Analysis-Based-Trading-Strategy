@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Financial News Sentiment Trading</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">Trading Insights</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h2 class="text-center">Contact Us</h2>
+        <form action="/send_message" method="post">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white text-center py-3">
+        <p>Created by Nitish Kumar</p>
+        <p>Email: nitish23129@iiitd.ac.in | GitHub: <a href="https://github.com/NitishAryanRaj" target="_blank" class="text-white">NitishAryanRaj</a> | LinkedIn: <a href="https://www.linkedin.com/in/nitish-singh-378b9223b/?originalSubdomain=in" target="_blank" class="text-white">nitish-singh</a></p>
+        <p>Website: <a href="https://nitishtech.netlify.app/about-us" target="_blank" class="text-white">Nitish Kumar</a></p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

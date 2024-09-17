@@ -1,0 +1,61 @@
+# Python related
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+*.db
+
+# Virtual environment
+venv/
+ENV/
+env/
+*.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Data files
+data/raw/
+data/processed/
+
+# Models
+models/
+
+# Reports
+reports/
+
+# Static files
+app/static/
+
+# Flask
+instance/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+```
+
+### Explanation:
+
+- **Python related**: Ignores compiled Python files and cache directories.
+- **Virtual environment**: Ignores virtual environment directories and environment variable files.
+- **Jupyter Notebook**: Ignores Jupyter notebook checkpoint files.
+- **Data files**: Ignores raw and processed data directories to avoid committing large or sensitive data files.
+- **Models**: Ignores the directory where trained models are stored.
+- **Reports**: Ignores the directory where reports are generated.
+- **Static files**: Ignores static files directory used in Flask applications.
+- **Flask**: Ignores Flask's instance folder (if used for configuration or secret keys).
+- **IDE Specific**: Ignores configuration files from IDEs like PyCharm and VS Code.
+- **MacOS**: Ignores macOS Finder metadata files.
+- **Windows**: Ignores Windows-specific thumbnail cache files.
+
+This setup ensures that unnecessary and sensitive files are not tracked by Git, keeping your repository clean and focused. Adjust as necessary based on additional files or directories specific to your development environment.
