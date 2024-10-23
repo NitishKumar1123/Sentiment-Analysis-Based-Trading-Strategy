@@ -1,7 +1,7 @@
 # Another Project link: 
-1.Company FAQ chatbot:- https://github.com/NitishKumar1123/chatbot-project
-2.Personal-Data-De-identification-Project:- https://github.com/PravarAgarwal/Personal-Data-De-identification-Project
-3.Local News Tracker:- https://github.com/deshdeepak-iiitd/LocalNewsTracker
+# 1.Company FAQ chatbot:- https://github.com/NitishKumar1123/chatbot-project
+# 2.Personal-Data-De-identification-Project:- https://github.com/PravarAgarwal/Personal-Data-De-identification-Project
+# 3.Local News Tracker:- https://github.com/deshdeepak-iiitd/LocalNewsTracker
 # Sentiment Trading Strategy
 
 ## Overview
