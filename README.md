@@ -1,15 +1,9 @@
-# Another Project link: 
-# 1.Company FAQ chatbot:- 
-https://github.com/NitishKumar1123/chatbot-project
-# 2.Personal-Data-De-identification-Project:- 
-https://github.com/PravarAgarwal/Personal-Data-De-identification-Project
-# 3.Local News Tracker:- 
-https://github.com/deshdeepak-iiitd/LocalNewsTracker
 # Sentiment Trading Strategy
 
 ## Overview
 
 The Sentiment Trading Strategy project aims to develop a trading strategy based on sentiment analysis of financial news and social media data. The project involves data collection, preprocessing, sentiment analysis, model training, backtesting, and reporting. A Flask web application is also included to visualize the results and generate reports.
+![Screenshot 2025-01-13 123219](https://github.com/user-attachments/assets/362aaa6b-99b5-41ec-93b7-3a27cd7587fa)
 
 ## Tech Stack- News API, python, AI/ML ,Flask, HTML, CSS,
 ## Project Structure
